@@ -1,0 +1,88 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size:px16 ;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: grey;
+}
+
+.pim1{
+    background-image: url('img1.jpg');
+    min-height: 100%;
+    background-size: cover;
+}
+
+.pim2{
+    background-image: url('img2.jpg');
+    min-height: 70%;
+    background-size: cover;
+}
+
+.pim3{
+    background-image: url('img3.jpg');
+    min-height: 70%;
+    background-size: cover;
+}
+
+
+.pim1, .pim2, .pim3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f8f8f8;
+    color: rgb(78, 77, 77);
+}
+
+.section-dark{
+    background-color: rgb(140, 156, 175);
+    color: white;
+}
+
+.section-crazy{
+    background-color: rgb(68, 59, 59);
+    color: white;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+
+.ptext .border{
+    background-color: rgb(26, 25, 25);
+  color: aliceblue;
+    
+}
+
+.ptext .border.trans{
+
+background-color: transparent;
+}
+
+.ptext .border.trani{
+    color: black;
+    background-color: transparent;
+}
+
+@media(max-width:560px){
+    .pim1, .pim2, .pimg3{
+        background-attachment: scroll;
+    }
+}  
